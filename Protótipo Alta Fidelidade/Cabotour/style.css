@@ -24,7 +24,7 @@
 html { scroll-behavior:smooth; }
 body { font-family:var(--font-b); color:var(--gray-900); background:var(--white); line-height:1.6; }
 
-/* NAV */
+
 nav {
   position:fixed; top:0; left:0; right:0; z-index:100;
   display:flex; align-items:center; justify-content:space-between;
@@ -46,7 +46,6 @@ nav {
 .btn-solid { background:var(--sun); border:none; color:#fff; padding:8px 20px; border-radius:var(--r-sm); font-size:14px; font-weight:700; cursor:pointer; font-family:var(--font-b); transition:background .2s; }
 .btn-solid:hover { background:var(--sun-l); color:var(--gray-900); }
 
-/* HERO */
 .hero {
   position:relative; min-height:100vh; display:flex; flex-direction:column;
   align-items:center; justify-content:center; overflow:hidden; padding:80px 24px 0;
@@ -94,7 +93,7 @@ nav {
 .stat-num { font-size:28px; font-weight:800; color:#fff; }
 .stat-label { font-size:13px; color:rgba(255,255,255,0.65); margin-top:2px; }
 
-/* ABOUT */
+
 .about { padding:96px 48px; max-width:1200px; margin:0 auto; }
 .eyebrow { font-size:12px; font-weight:700; letter-spacing:.12em; text-transform:uppercase; color:var(--ocean); margin-bottom:12px; }
 .sec-title { font-family:var(--font-d); font-size:clamp(28px,4vw,46px); color:var(--gray-900); line-height:1.18; margin-bottom:16px; }
@@ -120,7 +119,7 @@ nav {
 .feat-title { font-size:16px; font-weight:700; color:var(--gray-900); margin-bottom:4px; }
 .feat-desc { font-size:14px; color:var(--gray-700); line-height:1.65; }
 
-/* ATRATIVOS */
+
 .atrativos { padding:96px 48px; background:var(--gray-50); }
 .atrativos-inner { max-width:1200px; margin:0 auto; }
 .atrativos-head { text-align:center; margin-bottom:64px; }
@@ -138,7 +137,7 @@ nav {
 .atr-title { font-size:17px; font-weight:700; color:var(--gray-900); margin-bottom:8px; }
 .atr-desc  { font-size:14px; color:var(--gray-700); line-height:1.7; }
 
-/* PONTOS TURÍSTICOS */
+
 .pontos { padding:96px 48px; max-width:1200px; margin:0 auto; }
 .pontos-head { display:flex; justify-content:space-between; align-items:flex-end; margin-bottom:48px; flex-wrap:wrap; gap:20px; }
 .btn-link { background:none; border:none; color:var(--ocean); font-size:14px; font-weight:700; cursor:pointer; font-family:var(--font-b); padding:0; }
@@ -154,7 +153,7 @@ nav {
 .dest-det { font-size:13px; color:rgba(255,255,255,0.8); }
 .dest-price { font-size:15px; font-weight:700; color:var(--sun-l); margin-top:6px; }
 
-/* PROMO */
+
 .promo-wrap { padding:0 48px 96px; }
 .promo-inner {
   max-width:1200px; margin:0 auto;
@@ -173,7 +172,7 @@ nav {
 .btn-cta:hover { transform:scale(1.03); }
 .promo-note { font-size:12px; color:rgba(255,255,255,0.5); }
 
-/* DEPOIMENTOS */
+
 .depoi { padding:96px 48px; background:var(--gray-50); }
 .depoi-inner { max-width:1200px; margin:0 auto; }
 .depoi-head { text-align:center; margin-bottom:56px; }
@@ -189,7 +188,7 @@ nav {
 .dep-name { font-size:14px; font-weight:700; color:var(--gray-900); }
 .dep-loc  { font-size:12px; color:var(--gray-700); }
 
-/* FOOTER */
+
 footer { background:var(--ocean-d); padding:64px 48px 32px; }
 .foot-inner { max-width:1200px; margin:0 auto; }
 .foot-top { display:grid; grid-template-columns:2fr 1fr 1fr 1fr; gap:48px; margin-bottom:48px; }
@@ -206,14 +205,14 @@ footer { background:var(--ocean-d); padding:64px 48px 32px; }
 .foot-legal a { font-size:13px; color:rgba(255,255,255,0.35); text-decoration:none; transition:color .2s; }
 .foot-legal a:hover { color:rgba(255,255,255,0.8); }
 
-/* UTILITÁRIOS (substituem style inline no HTML) */
+
 .text-center { text-align: center; }
 .mx-auto { margin-left: auto; margin-right: auto; }
 .max-w-500 { max-width: 500px; }
 .mb-0 { margin-bottom: 0; }
 .foot-emoji { font-size: 28px; }
 
-/* RESPONSIVE */
+
 @media(max-width:900px){
   nav { padding:0 24px; }
   .nav-links { display:none; }

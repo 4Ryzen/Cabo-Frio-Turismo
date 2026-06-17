@@ -1,34 +1,23 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cabotour - Contatos</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,700;1,700&display=swap" rel="stylesheet"/>
-    <link rel="stylesheet" href="../CSS/style.css"/>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css"/>
+  <title>Contatos</title>
 </head>
 <body>
-    
-<!-- NAV -->
-<nav>
-  <a class="nav-logo" href="#">
+  <nav>
+  <a class="nav-logo" href="/Protótipo Alta Fidelidade/Cabotour/index.html">
     <span class="nav-logo-icon" aria-hidden="true">🌊</span>
     <span class="nav-brand">Cabotour</span>
   </a>
-  <ul class="nav-links">
-    <li><a href="#sobre">Sobre</a></li>
-    <li><a href="#inicio">Pontos turísticos</a></li>
-    <li><a href="#vantagens">Por que ir</a></li>
-  </ul>
   <div class="nav-actions">
     <button class="btn-ghost">Sign-in</button>
     <button class="btn-solid">Log-in</button>
   </div>
 </nav>
 
-<!-- HERO -->
 <section class="hero" id="sobre">
   <div class="hero-sun" aria-hidden="true"></div>
   <div class="hero-clouds" aria-hidden="true"></div>
@@ -36,88 +25,81 @@
   <div class="hero-content">
     <div class="hero-badge">
       <span class="hero-badge-dot" aria-hidden="true"></span>
-      Painel de Contatos
+      Suporte · Cabotour · 2026
     </div>
-    <h1 class="hero-title">Painel de<br/><em>Contatos</em></h1>
-    <p class="hero-sub">???</p>
-    <div class="hero-actions">
-      <button class="btn-hero-p" onclick="document.getElementById('pontos').scrollIntoView({behavior:'smooth'})">???</button>
-      <button class="btn-hero-s" onclick="document.getElementById('sobre-nos').scrollIntoView({behavior:'smooth'})">???</button>
-    </div>
-  </div>
 
-  <!-- Dune / beach transition -->
-  <div class="hero-dunes" aria-hidden="true">
-    <svg viewBox="0 0 1440 260" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
-      <!-- Sky backdrop -->
-      <rect width="1440" height="260" fill="transparent"/>
-      <!-- Sea -->
-      <rect x="0" y="60" width="1440" height="200" fill="#00afd4" opacity="0.55"/>
-      <path d="M0,75 Q180,55 360,75 Q540,95 720,75 Q900,55 1080,75 Q1260,95 1440,75 L1440,260 L0,260 Z" fill="#00c4e0" opacity="0.55"/>
-      <path d="M0,100 Q200,80 400,100 Q600,120 800,100 Q1000,80 1200,100 Q1350,115 1440,100 L1440,260 L0,260 Z" fill="#5ecfe8" opacity="0.4"/>
-      <!-- Sand / dunes -->
-      <ellipse cx="200"  cy="250" rx="320" ry="55" fill="#e8c97a" opacity="0.9"/>
-      <ellipse cx="720"  cy="258" rx="500" ry="50" fill="#f0d890" opacity="0.85"/>
-      <ellipse cx="1280" cy="253" rx="300" ry="52" fill="#e8c97a" opacity="0.88"/>
-      <rect x="0" y="230" width="1440" height="30" fill="#dab96a" opacity="0.5"/>
-      <!-- Foam lines -->
-      <path d="M0,118 Q90,110 180,118 Q270,126 360,118" stroke="rgba(255,255,255,0.6)" stroke-width="2" fill="none"/>
-      <path d="M600,105 Q720,96 840,105 Q960,114 1080,105" stroke="rgba(255,255,255,0.5)" stroke-width="2" fill="none"/>
-      <!-- Palm trees left -->
-      <rect x="55"  y="60" width="9" height="165" rx="4" fill="#5d3a1a"/>
-      <ellipse cx="59"  cy="58"  rx="48" ry="66" fill="#2d6a2a" opacity="0.88"/>
-      <ellipse cx="38"  cy="46"  rx="36" ry="54" fill="#388e3c"/>
-      <ellipse cx="80"  cy="44"  rx="38" ry="56" fill="#43a047" opacity="0.82"/>
-      <rect x="115" y="80" width="8" height="145" rx="4" fill="#6d4c1a"/>
-      <ellipse cx="119" cy="78"  rx="40" ry="60" fill="#1b5e20" opacity="0.85"/>
-      <ellipse cx="100" cy="66"  rx="30" ry="48" fill="#2e7d32"/>
-      <!-- Palm trees right -->
-      <rect x="1320" y="65" width="9" height="160" rx="4" fill="#5d3a1a"/>
-      <ellipse cx="1324" cy="63" rx="46" ry="64" fill="#2d6a2a" opacity="0.85"/>
-      <ellipse cx="1345" cy="50" rx="36" ry="54" fill="#388e3c"/>
-      <rect x="1370" y="82" width="8" height="142" rx="4" fill="#6d4c1a"/>
-      <ellipse cx="1374" cy="80" rx="38" ry="58" fill="#1b5e20" opacity="0.82"/>
-      <!-- Boat -->
-      <ellipse cx="740" cy="106" rx="55" ry="10" fill="rgba(255,255,255,0.82)"/>
-      <polygon points="740,78 768,106 712,106" fill="rgba(255,255,255,0.95)"/>
-      <rect x="738" y="83" width="3" height="22" fill="#90a4ae"/>
-    </svg>
-  </div>
+<section class="atrativos" id="vantagens">
+  <div class="atrativos-inner">
+    <div class="atrativos-head">
+      <p class="eyebrow">Entre em Contato</p>
+      <p class="sec-sub" style="margin:0 auto;text-align:center;max-width:500px;">Alguma pergunta ou observação? Basta nos escrever uma mensagem!</p>
+    </div>
+  <form class="chamado">
+    <div class="chnome">
+    <label for="pnome">Primeiro Nome:</label>
+    <input type="text" id="pnome"
+           name="nome"
+           placeholder="Insira o seu nome" required>
+    </div>
+
+  <div class="chemail">
+    <label for="email">Email:</label>
+    <input type="text" id="email"
+           name="email"
+           placeholder="Insira o seu Email" required>
+</div>
+
+    <button type="submit">Enviar</button>
+  </form>
 </section>
 
-<!-- ABOUT -->
-<section class="about" id="sobre-nos" style="text-align: center;">
-  <div class="about-grid">
-    <div>
-      <p class="eyebrow">Painel</p>
-      <h2 class="sec-title">Aqui você irá encontrar os contatos para entrar em contato conosco.</h2>
-      <div class="features" style="display: inline-block; text-align: left;">
-        <div class="feat" style="text-align: center; margin-bottom: 15px;">
-          <div class="feat-dot"></div>
-          <div>
-            <div class="feat-title">Contato 1</div>
-            <div class="feat-desc">Da Praia do Forte com suas ondas fortes à calma Praia das Dunas, há opções para surf, natação, mergulho e lazer familiar.</div>
-          </div>
-        </div>
-        <div class="feat" style="text-align: center; margin-bottom: 15px;">
-          <div class="feat-dot"></div>
-          <div>
-            <div class="feat-title">Contato 2</div>
-            <div class="feat-desc">A maior lagoa hipersalina do mundo fica a poucos minutos e oferece águas mornas e calmas, perfeitas para crianças e idosos.</div>
-          </div>
-        </div>
-        <div class="feat" style="text-align: center; margin-bottom: 15px;">
-          <div class="feat-dot"></div>
-          <div>
-            <div class="feat-title">Contato 3</div>
-            <div class="feat-desc">Do camarão fresquíssimo nos restaurantes à beira-mar até os bares e quiosques animados no canal. Cabo Frio tem sabor e estilo próprios.</div>
-          </div>
-        </div>
+<!-- FOOTER -->
+<footer id="contato">
+  <div class="foot-inner">
+    <div class="foot-top">
+      
+      <!-- Coluna 1: Marca e Descrição -->
+      <div class="foot-brand">
+        <span style="font-size:28px;" aria-hidden="true">🌊</span>
+        <div class="foot-brand-name">Cabo<span>tour</span></div>
+        <p class="foot-desc">Sua próxima aventura pelas praias mais paradisíacas começa aqui. Viaje com conforto e segurança.</p>
+      </div>
+
+      <!-- Coluna 2: Links Rápidos (Nova para preencher o layout) -->
+      <div>
+        <div class="foot-col-title">Empresa</div>
+        <ul class="foot-links">
+          <li><a href="/Protótipo Alta Fidelidade/Sobre/index.html">Sobre nós</a></li>
+          <li><a href="/Protótipo Alta Fidelidade/PromoPage/index.html">Promoções</a></li>
+          <li><a href="#">Depoimentos</a></li>
+          <li><a href="#">Destinos</a></li>
+        </ul>
+      </div>
+
+      <!-- Coluna 3: Contatos -->
+      <div>
+        <div class="foot-col-title">Contato</div>
+        <ul class="foot-links">
+          <li><a href="mailto:contato@cabotour.com.br">contato@cabotour.com.br</a></li>
+          <li><a href="tel:22999990000">(22) 9 9999-0000</a></li>
+          <li><a href="#">WhatsApp</a></li>
+          <li><a href="#">Central de ajuda</a></li>
+        </ul>
+      </div>
+
+    </div>
+
+    <!-- Parte Inferior -->
+    <div class="foot-bottom">
+      <span class="foot-copy">© 2026 Cabotour Turismo. Todos os direitos reservados.</span>
+      <div class="foot-legal">
+        <a href="#">Política de privacidade</a>
+        <a href="#">Termos de uso</a>
+        <a href="#">Cookies</a>
       </div>
     </div>
-    </div>
   </div>
-</section>
+</footer>
 
 
 </body>

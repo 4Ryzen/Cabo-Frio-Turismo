@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>[Wireframe] Sobre Nós - Cabotour</title>
+  <style>
+    body { font-family: monospace; color: #333; margin: 0; background: #fff; line-height: 1.4; }
+    nav, section, footer { padding: 20px; border-bottom: 2px solid #666; }
+    nav { display: flex; justify-content: space-between; align-items: center; }
+    .grid-2 { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 40px; max-width: 1100px; margin: 0 auto; align-items: center; }
+    .grid-3 { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; margin-top: 20px; }
+    .box-placeholder-large { background: #e0e0e0; height: 350px; border: 2px dashed #666; display: flex; align-items: center; justify-content: center; font-weight: bold; }
+    .card-value { border: 2px solid #333; padding: 20px; text-align: center; background: #fff; }
+    .btn { background: #333; color: #fff; padding: 10px; border: none; font-family: monospace; font-weight: bold; text-decoration: none; }
+    .footer-grid { display: grid; grid-template-columns: 2fr 1fr 1fr; gap: 20px; }
+    @media (max-width: 768px) { .footer-grid { grid-template-columns: 1fr; } }
+  </style>
+</head>
+<body>
+
+
+  <nav>
+    <div><strong>[LOGO] Cabotour</strong></div>
+    <div><a href="promo.html" class="btn">Link: Voltar para Promo</a></div>
+  </nav>
+
+
+  <section style="background: #222; color: #fff; text-align: center; padding: 60px 20px;">
+    <small style="color: #ccc;">[Contexto: Institucional]</small>
+    <h1>[Título Principal: História e Propósito da Empresa]</h1>
+    <p>[Subtítulo contendo o manifesto ou principal objetivo da organização]</p>
+  </section>
+
+
+  <section>
+    <div class="grid-2">
+      <div>
+        <small>[Bloco de Texto: Narrativa]</small>
+        <h2>[Título Secundário: Como começamos]</h2>
+        <p>[Parágrafo descritivo sobre o histórico dos fundadores, motivação inicial para abrir o negócio e o desenvolvimento do mercado de turismo regional].</p>
+        <p>[Informações complementares sobre a qualidade da frota, seleção de guias e compromisso com o consumidor final].</p>
+      </div>
+      <div>
+        <div class="box-placeholder-large">[IMAGEM: Equipe ou Operação Local]</div>
+      </div>
+    </div>
+  </section>
+
+
+  <section style="background: #f5f5f5;">
+    <div style="text-align: center; margin-bottom: 30px;">
+      <small>[Pilares Culturais]</small>
+      <h2>[Título: Diretrizes Operacionais]</h2>
+    </div>
+
+    <div class="grid-3">
+
+      <div class="card-value">
+        <div style="font-size: 24px; margin-bottom: 10px;">[ÍCONE A]</div>
+        <h3>[Pilar 1: Diretriz de Segurança]</h3>
+        <p>[Explicação conceitual resumida sobre conformidade, regras e licenças marítimas].</p>
+      </div>
+
+
+      <div class="card-value">
+        <div style="font-size: 24px; margin-bottom: 10px;">[ÍCONE B]</div>
+        <h3>[Pilar 2: Conhecimento Geográfico]</h3>
+        <p>[Explicação sobre a valorização do conhecimento prático de rotas e praias locais].</p>
+      </div>
+
+
+      <div class="card-value">
+        <div style="font-size: 24px; margin-bottom: 10px;">[ÍCONE C]</div>
+        <h3>[Pilar 3: Sustentabilidade]</h3>
+        <p>[Explicação sobre práticas de descarte de resíduos e respeito ao ecossistema].</p>
+      </div>
+    </div>
+  </section>
+
+
+  <footer>
+    <div class="footer-grid">
+      <div>
+        <h3>[Bloco Identidade]</h3>
+        <p>[Texto institucional breve sobre a finalidade da marca e segurança].</p>
+      </div>
+      <div>
+        <h4>[Links Grupo A]</h4>
+        <p>• Link Interno 1<br>• Link Interno 2<br>• Link Interno 3</p>
+      </div>
+      <div>
+        <h4>[Links Grupo B]</h4>
+        <p>• Contato e-mail<br>• Telefone<br>• Endereço</p>
+      </div>
+    </div>
+    <div style="margin-top: 30px; border-top: 1px solid #666; padding-top: 15px; font-size: 12px;">
+      [Direitos Autorais © 2026] | [Políticas de Privacidade] | [Termos Gerais]
+    </div>
+  </footer>
+
+</body>
+</html>
